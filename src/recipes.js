@@ -1,9 +1,10 @@
 const axios = require('axios');
 
-// Function to get recipes based on an ingredient
-async function getRecipes(ingredient) {
+// Function to get recipes based on multiple ingredients
+async function getRecipes(ingredients) {
+    const ingredientList = ingredients.join(',');
     try {
-        const response = await axios.get(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${ingredient}`);
+        const response = await axios.get(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${ingredientList}`);
         return response.data.meals;
     } catch (error) {
         console.error('Error fetching recipes:', error);
