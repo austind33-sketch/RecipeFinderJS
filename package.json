@@ -1,0 +1,23 @@
+{
+  "name": "recipefinderjs",
+  "version": "1.0.0",
+  "description": "This project is a Recipe Finder application that I designed to assist my growth and understanding as a software engineer. The goal is to demonstrate proficiency in JavaScript by creating a functional and interactive application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austind33-sketch/RecipeFinderJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austind33-sketch/RecipeFinderJS/issues"
+  },
+  "homepage": "https://github.com/austind33-sketch/RecipeFinderJS#readme",
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
