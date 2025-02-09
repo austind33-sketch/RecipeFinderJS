@@ -1,6 +1,6 @@
 # Overview
 
-This project is a Recipe Finder application developed to enhance my skills as a software engineer. The goal is to demonstrate proficiency in JavaScript by creating a functional and interactive application.
+This project is a Recipe Finder application that I designed to assist my growth and understanding as a software engineer. The goal is to demonstrate proficiency in JavaScript by creating a functional and interactive application.
 
 The Recipe Finder allows users to search for recipes based on ingredients they have. It fetches data from an external API and displays the results in a user-friendly format. This project showcases the use of modern JavaScript features, including ES6 syntax, recursion, and third-party libraries.
 
